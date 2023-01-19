@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mansalva', cursive;
+    font-size: 1.125rem;
+}
+#food-items {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.foodList {
+    margin: 2rem 3rem;
+}
+button {
+    padding: 0.5rem 1.5rem;
+    border: none;
+    text-align: center;
+    background-color: #B2AAAA;
+}
+
+button+button {
+    margin-left: 2rem;
+}
+img{
+    width: 100px;
+    height: 100px;
+    max-width: 100%;
+}
+.card {
+    padding: 0.5rem;
+    width: 22%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    background-color: #B2AAAA;
+    font-size: 0.85rem;
+    margin: 0.rem;
+}
